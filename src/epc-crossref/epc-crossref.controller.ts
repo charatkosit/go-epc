@@ -6,7 +6,7 @@ import { UpdateEpcCrossrefDto } from './dto/update-epc-crossref.dto';
 @Controller(
   {
     version: '1',
-    path: 'epc-crossref'
+    path: 'cross'
   }
 )
 
@@ -16,6 +16,11 @@ export class EpcCrossrefController {
   @Post()
   create(@Body() createEpcCrossrefDto: CreateEpcCrossrefDto) {
     return this.epcCrossrefService.create(createEpcCrossrefDto);
+  }
+
+  @Get('version')
+  version() {
+    return { 'version': '0.0.2'};
   }
 
   @Get()
