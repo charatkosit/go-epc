@@ -9,5 +9,5 @@ export const environment = {
   synchronize: true,
   baseUrl: "",
   project: "Build Dev:v0.0.1 on 18/7/23",
-  release: "Back-Epc-Dev",
+  release: "Go-Epc-Dev",
 };
