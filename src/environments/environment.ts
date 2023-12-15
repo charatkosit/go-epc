@@ -2,7 +2,7 @@
 export const environment = {
   production: false,
   dbUrl: "127.0.0.1",
-  port: 3308,
+  port: 3312,
   dbUsername: "root",
   dbPassword: "1234",
   dbName: "epc",
